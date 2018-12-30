@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: paleturquoise;
+}
+
+.memory--game {
+    width: 640px;
+    height: 640px;
+    display: flex;
+    border: 2px solid lime;
+}
+.memory--card {
+    width: 25%;
+    height: 33.
+    border: 2px solid aqua;
+}
+.front--face,
+.back--face {
+    border: 2px solid deeppink;
+}
