@@ -61,3 +61,21 @@ function resetBoard() {
 cards.forEach(card => card.addEventListener('click', flipCard))
 
 resetBoard();
+
+const memoryGame = {
+    tilePairs : 0, //liczba dopasowanych kafelków
+
+    this.deleteTiles = function() {
+        this.tilesChecked[0].remove();
+        this.tilesChecked[1].remove();
+
+        this.canGet = true;
+        this.tilesChecked = [];
+
+        this.tilePairs++;
+        if (this.tilePairs >= this.tileCount / 2) {
+            alert('gameOver!');
+        }
+    },
+
+}

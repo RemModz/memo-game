@@ -61,3 +61,13 @@ function resetBoard() {
 cards.forEach(card => card.addEventListener('click', flipCard))
 
 resetBoard();
+
+const cards = {
+
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.game-start').addEventListener('click', function() {
+        memoryGame.startGame();
+    });
+});
